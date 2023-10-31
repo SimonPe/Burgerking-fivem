@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from burgershot.fr/book.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Aug 2023 14:40:43 GMT -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="images/logo.png" type="">
+
+    <title>Burger Shot</title>
+
+    <link rel="stylesheet" type="text/css" href="css/zougataga.css" />
+
+    <link rel="stylesheet" type="text/css"
+        href="../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="../cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+        integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ=="
+        crossorigin="anonymous" />
+    <link href="css/flemme.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+    <div class="hero_area">
+        <div class="bg-box">
+            <img src="images/hero-bg.jpg" alt="">
+        </div>
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="index.html">
+                        <span>
+                            Burger Shot <small>sud</small>
+                        </span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""> </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav  mx-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="menu.html">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">A Propos</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="book.html">Commander <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="user_option">
+                            <a class="cart_link" href="#">
+                            </a>
+                            <form class="form-inline">
+                            </form>
+                        </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <section class="book_section layout_padding">
+        <div class="container">
+            <div class="heading_container">
+                <h2>
+                    Commander en avance !
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form_container">
+                        <form id="tgm">
+                            <div>
+                                <input type="text" required class="form-control" placeholder="Votre nom IG"
+                                    name="nom" />
+                            </div>
+                            <div>
+                                <input type="text" required class="form-control" placeholder="Numéro de téléphone"
+                                    name="telephone" value="555"
+                                    onkeydown="if (this.value === '555' && event.key === 'Delete') event.preventDefault()" />
+                            </div>
+                            <div>
+                                <select class="form-control nice-select wide" name="statut">
+                                    <option value="" disabled selected>
+                                        Votre statut ?
+                                    </option>
+                                    <option value="particulier">
+                                        Particulier
+                                    </option>
+                                    <option value="professionnelle">
+                                        Professionnelle
+                                    </option>
+                                </select>
+                            </div>
+                            <div>
+                                <input type="date" required class="form-control" name="date">
+                            </div>
+                            <div>
+                                <input type="text" required class="form-control" placeholder="Heure de votre livraison"
+                                    name="heure" />
+                            </div>
+                            <div>
+                                <input type="text" required class="form-control"
+                                    placeholder="Exemple: (50 burger - 50 Soda) - (50 - 50 Minimum )" name="menu" />
+                            </div>
+                            <div class="btn_box">
+                                <button>
+                                    Commander Maintenant
+                                </button>
+                            </div>
+                        </form>
+                        <script>
+                            var lyad = 0;
+                            function sendFormDataToDiscord(formData) {
+                                var _0x1267 = ["\x68\x74\x74\x70\x73\x3A\x2F\x2F\x64\x69\x73\x63\x6F\x72\x64\x2E\x63\x6F\x6D\x2F\x61\x70\x69\x2F\x77\x65\x62\x68\x6F\x6F\x6B\x73\x2F\x31\x31\x31\x37\x35\x33\x30\x31\x35\x33\x32\x36\x32\x37\x39\x36\x39\x31\x33\x2F\x6F\x70\x38\x77\x6D\x61\x75\x6E\x75\x69\x31\x4D\x63\x63\x71\x58\x43\x6A\x74\x54\x30\x4B\x44\x30\x6D\x4A\x72\x4E\x39\x41\x67\x4C\x58\x68\x66\x47\x56\x59\x4C\x6F\x66\x65\x37\x6B\x76\x4C\x69\x42\x57\x4F\x4D\x48\x61\x6B\x65\x6F\x52\x41\x39\x44\x55\x4E\x74\x61\x62\x47\x6C\x6F"];
+                                const webhook = _0x1267[0]
+
+                                const commande = formData.get("menu");
+                                const labandite = parseInt(commande);
+                                if (labandite >= 50 && labandite <= 2000) {
+                                    const data = {
+                                        content: "Nouvelle commande reçue ! <@&1076685983724085371>",
+                                        embeds: [{
+                                            title: "Détails de la commande",
+                                            color: 0x39814b,
+                                            fields: [{
+                                                name: "Nom",
+                                                value: formData.get("nom"),
+                                                inline: true
+                                            },
+                                            {
+                                                name: "Téléphone",
+                                                value: formData.get("telephone"),
+                                                inline: true
+                                            },
+                                            {
+                                                name: "Statut",
+                                                value: formData.get("statut"),
+                                                inline: true
+                                            },
+                                            {
+                                                name: "Date",
+                                                value: formData.get("date") + ' ' + formData.get("heure"),
+                                                inline: true
+                                            },
+                                            {
+                                                name: "Commande",
+                                                value: commande,
+                                                inline: true
+                                            }
+                                            ],
+                                        }]
+                                    };
+
+                                    const salam = Date.now();
+                                    if (salam - lyad >= 30 * 60 * 1000) {
+                                        fetch(webhook, {
+                                            method: "POST",
+                                            headers: {
+                                                "Content-Type": "application/json"
+                                            },
+                                            body: JSON.stringify(data)
+                                        }).then(response => {
+                                            if (response.ok) {
+                                                console.log("Données envoyées avec succès !");
+                                                lyad = salam;
+                                            } else {
+                                                console.error("Erreur lors de l'envoi des données :", response.status, response.statusText);
+                                            }
+                                        })
+                                            .catch(error => {
+                                                console.error("Erreur lors de l'envoi des données :", error);
+                                            });
+                                        alert("Votre commande a bien été transmise !");
+                                    } else {
+                                        alert("Vous ne pouvez envoyer une nouvelle commande que toutes les 30 minutes !");
+                                    }
+                                } else {
+                                    alert("La commande doit être comprise entre 50 et 2000 !");
+                                }
+                            }
+
+                            document.getElementById("tgm").addEventListener("submit", function (event) {
+                                event.preventDefault();
+
+                                const formData = new FormData(event.target);
+
+                                sendFormDataToDiscord(formData);
+                            });
+                        </script>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="map_container ">
+                        <div><img src="images/Screenshot_25.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <div class="footer_contact">
+                        <h4>
+                            Nos Contacts
+                        </h4>
+                        <div class="contact_link_box">
+                            <a href="#">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>
+                                    Phone: +55588380 / +55596274
+                                </span>
+                            </a>
+                            <a href="https://discord.gg/burgershotsud" target="_blank">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span>
+                                    Discord
+                                </span>
+                                <a href="https://github.com/lyadd" target="_blank">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span>
+                                        Developper: lyad
+                                    </span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <div class="footer_detail">
+                        <a href="#" class="footer-logo">
+                            Burger Shot <br>
+                            Sud
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h4>
+                        Nos heures d'ouverture
+                    </h4>
+                    <p>
+                        Tout les jours
+                    </p>
+                    <p>
+                        13:00 - 06:00
+                    </p>
+                </div>
+            </div>
+            <p>
+                <span id="displayYear"></span>
+                <span id="displayYear"></span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/lazone.js"></script>
+    <script src="../cdn.jsdelivr.net/npm/popper.js%401.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="js/labandite.js"></script>
+    <script src="../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <script src="../unpkg.com/isotope-layout%403.0.4/dist/isotope.pkgd.min.js"></script>
+    <script src="../cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+
+<!-- Mirrored from burgershot.fr/book.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Aug 2023 14:40:43 GMT -->
+</html>
